@@ -1,0 +1,522 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav .img img {
+    opacity: 0.7;
+}
+
+.nav .img {
+    height: 150px;
+}
+
+body {
+    background-color: black;
+}
+
+.nav {
+    width: 135px;
+    height: 100vh;
+    background-color: rgb(51, 49, 49);
+    position: fixed;
+
+}
+
+.nav .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 135px;
+    height: 100px;
+    color: white;
+
+    cursor: pointer;
+}
+
+.nav .home:hover {
+    background-color: black;
+}
+
+.nav .home i {
+    font-size: 30px;
+}
+
+.nav .home p {
+    font-size: 15px;
+}
+
+#WWW {
+    background-color: black;
+    cursor: pointer;
+}
+
+#WWW:hover {
+    background-color: silver;
+    color: black;
+}
+
+.para1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 80px 0 50px 60px;
+}
+
+.para1 p {
+    margin-top: 30px;
+}
+
+.Bimg img {
+    width: 80%;
+    height: 200vh;
+    margin: 30px 50px 0 205px;
+}
+
+.para2 {
+    margin: 90px 50px 0 205px;
+}
+
+.para2 .name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 23px;
+    color: white;
+    border-bottom: 2px solid rgb(146, 139, 139);
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+.para2 .p {
+    color: rgb(148, 142, 142);
+    font-size: 22px;
+    padding: 25px 0 0px 0;
+
+}
+
+#AAA {
+    font-size: 26px;
+}
+
+.skills {
+    margin: 30px 50px 0 205px;
+}
+
+.photo {
+    color: rgb(184, 171, 171);
+}
+
+.photo .v1 {
+    background-color: #f3efefe5;
+    box-shadow: 0 0 1px black;
+    height: 30px;
+    width: 100%;
+
+
+    margin-top: 20px;
+}
+
+.photo h3 {
+    margin-top: 30px;
+}
+
+.photo .v2 {
+    background-color: #585252e5;
+    height: 30px;
+
+
+    width: 86%;
+
+}
+
+.photo .v3 {
+    background-color: #585252e5;
+    height: 30px;
+
+
+    width: 70%;
+    position: relative;
+}
+
+.photo .v4 {
+    background-color: #585252e5;
+    height: 30px;
+    width: 50%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    width: 1100;
+    margin: 90px 50px 0 205px;
+    background-color: rgb(233, 229, 229);
+}
+
+.info p {
+    text-align: center;
+    color: black;
+    font-size: 21px;
+}
+
+.btn {
+    margin: 30px 50px 0 205px;
+    text-align: center;
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    border: none;
+    transition: all .3 linear;
+}
+
+.btn:hover {
+    background-color: #b6b2b2e5;
+}
+
+.btn p {
+    display: inline;
+    font-size: 17px;
+}
+
+.price {
+    margin: 50px 50px 0 205px;
+}
+
+.price .MMM {
+    color: white;
+    font-size: 25px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 45px;
+}
+
+.box .box1 {
+    background-color: white;
+    width: 480px;
+    height: 570px;
+    opacity: 0.6;
+}
+
+.box .box1:hover {
+    opacity: 1;
+}
+
+
+.box .box1 .HHH {
+    background-color: #424040e5;
+    height: 100px;
+    font-size: 27px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .box2 {
+    background-color: white;
+    width: 480px;
+    height: 570px;
+    opacity: 0.6;
+}
+
+
+.box .box2:hover {
+    opacity: 1;
+}
+
+.box .box2 .HHH {
+    background-color: #424040e5;
+    height: 100px;
+    font-size: 27px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .box1 .FFF {
+    border-bottom: 1px solid rgb(136, 132, 132);
+    height: 70px;
+    font-size: 22px;
+    color: rgb(65, 63, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box .box2 .FFF {
+    border-bottom: 1px solid rgb(136, 132, 132);
+    height: 70px;
+    font-size: 22px;
+    color: rgb(65, 63, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box .box1 .QQQ {
+
+    border-bottom: 1px solid rgb(136, 132, 132);
+    height: 120px;
+    font-size: 22px;
+    color: rgb(65, 63, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box .box2 .QQQ {
+
+    border-bottom: 1px solid rgb(136, 132, 132);
+    height: 120px;
+    font-size: 22px;
+    color: rgb(65, 63, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box .box1 .btx {
+
+    height: 70px;
+    font-size: 22px;
+    color: rgb(65, 63, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.box .box1 .btx button {
+    font-size: 17px;
+    border: none;
+    background-color: rgb(114, 100, 100);
+    width: 120px;
+    height: 40px;
+    transition: all .3s linear;
+}
+
+.box .box1 .btx button:hover {
+    color: white;
+    background-color: black;
+}
+
+.box .box2 .btx button {
+    font-size: 17px;
+    border: none;
+    background-color: rgb(114, 110, 110);
+    width: 120px;
+    height: 40px;
+    transition: all .3s linear;
+}
+
+.box .box2 .btx button:hover {
+    color: white;
+    background-color: black;
+}
+
+.box .box2 .btx {
+
+    height: 70px;
+    font-size: 22px;
+    color: rgb(65, 63, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.contact {
+    margin: 70px 50px 0 205px;
+
+}
+
+.contact .ppp {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(109, 105, 105);
+    font-size: 19px;
+}
+
+.contact .form {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact .form input {
+    height: 30px;
+    padding: 25px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.bbb {
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.bbb:hover {
+    background-color: #585252e5;
+    color: white;
+}
+
+.contact .cc {
+    border-bottom: 1px solid rgb(83, 80, 80);
+    font-size: 25px;
+    color: white;
+    margin-top: 90px;
+    padding-bottom: 20px;
+    width: 200px;
+}
+
+.contact .LLL {
+    color: white;
+    margin: 30px 0 0 20px;
+
+
+}
+
+.contact .LLL i {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.contact .LLL p span {
+    color: #b6b2b2e5;
+    font-size: 18px;
+}
+
+.rep {
+    margin: 30px 50px 0 205px;
+}
+
+.rep .iii {
+    color: white;
+    font-size: 25px;
+    height: 50px;
+    margin-top: 80px;
+}
+
+.rep .pic1 {
+    display: flex;
+    color: white;
+}
+
+.rep .pic1 img {
+    width: 90px;
+    height: 90px;
+    margin: 30px 50px 0 20px;
+    border-radius: 50%;
+}
+
+.rep .pic1 p {
+    margin: 50px 50px 0 20px;
+    color: #b6b2b2e5;
+    font-size: 18px;
+}
+
+.pop {
+    margin: 60px 50px 0 205px;
+}
+
+.pop .prp {
+    font-size: 25px;
+    color: white;
+    border-bottom: 1px solid silver;
+    width: 170px;
+    padding-bottom: 20px;
+}
+.pop .ppl{
+    display: grid;
+    grid-template-columns: 500px 500px;
+gap: 17px;
+}
+#item2{
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#item1{
+width: 100%;
+height: 200px;
+}
+#item3{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#item5{
+    height: 140px;
+}
+#item6{
+    grid-row: 4/7;
+
+}
+#item7{
+    height: 300px;
+}
+.pop .ppl .item{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    margin: 150px 50px 50px 240px;
+    color: #585252e5;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+footer p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+footer p i{
+    transition: all .2s linear;
+    margin-left: 10px;
+}
+footer p i:hover{
+    transform: translateY(-5px);
+    color: white;
+}
+footer .zzz{
+    font-size: 18px;
+  text-align: center;
+}
+footer .zzz a{
+    text-decoration: none;
+  color: #585252e5;
+  
+  border-bottom: 1px solid #585252e5;
+}
+footer .zzz a:hover{
+color:rgb(24, 116, 24);
+border-bottom: 1px solid rgb(24, 116, 24);
+}
+@media  screen and (max-width:600px) {
+    .nav{
+        background-color: aliceblue;
+    }
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title> My calculator </title>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="screen">
+            <input type="text" class="display" readonly>
+
+        </div>
+        <div class="btn">
+
+            <div class="items1" onclick="clearDisplay()">C</div>
+            <div class="items" onclick="addToDisplay('7')">7</div>
+            <div class="items" onclick="addToDisplay('8')">8</div>
+            <div class="items" onclick="addToDisplay('9')">9</div>
+            <div class="items1" onclick="addToDisplay('/')">/</div>
+            <div class="items" onclick="addToDisplay('4')">4</div>
+            <div class="items" onclick="addToDisplay('5')">5</div>
+            <div class="items" onclick="addToDisplay('6')">6</div>
+            <div class="items1" onclick="addToDisplay('*')">*</div>
+            <div class="items" onclick="addToDisplay('1')">1</div>
+            <div class="items" onclick="addToDisplay('2')">2</div>
+            <div class="items" onclick="addToDisplay('3')">3</div>
+            <div class="items1" onclick="addToDisplay('+')">+</div>
+            <div class="items" onclick="addToDisplay('0')">0</div>
+            <div class="items" onclick="addToDisplay('.')">.</div>
+            <div class="items" id="equal" onclick="calculate()">=</div>
+            <div class="items1" onclick="addToDisplay('-')">-</div>
+
+        </div>
+    </div>
+
+    
+<script>
+    function addToDisplay(value) {
+        document.querySelector('.display').value += value;
+    }
+
+    function clearDisplay() {
+        document.querySelector('.display').value = '';
+    }
+
+    function calculate() {
+        var display = document.querySelector('.display');
+        try {
+            display.value = eval(display.value);
+        } catch (error) {
+            display.value = 'Error';
+        }
+    }
+</script>
+
+</body>
+
+</html>

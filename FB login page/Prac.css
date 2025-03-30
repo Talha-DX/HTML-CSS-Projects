@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.Navbar{
+    background-color: aqua;
+    box-shadow: 2px 5px 10px;    
+
+}
+.Navbar ul li{
+    list-style: none;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 22px;
+    
+}
+.Navbar ul li:hover{
+    color: beige;
+    background-color: brown;
+    
+}
+.Navbar ul{
+    display: flex;
+    
+}
+.Rot{
+    display: flex;
+    
+margin-left: 32%;
+margin-top: 80px;
+}
+.form{
+    height: 400px;
+    width: 40%;
+    background-color: rgb(228, 204, 204);
+    box-shadow: 2px 5px 10px;
+    border-radius: 20px;
+}
+.form h2{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    
+    }
+    .Hello{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .Hello input{
+        width: 200px;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        border-bottom:2px solid black ;
+outline: none;
+    }
+    .forget{
+        text-align: center;
+
+    }
+    .login{
+        text-align: center;
+        margin-top: 60px;
+    }
+    .login input{
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+
+    }
+    .login input:hover{
+        color: white;
+        background-color: blue;
+    }
+    .PPP{
+        text-align: center;
+        margin-top: 35px;
+    }
+    footer{
+        background-color: aqua;
+        color: black;
+        text-align: center;
+        height: 45px;
+        padding: 2px;
+    }
