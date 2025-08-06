@@ -18,7 +18,8 @@ body
     font-size: 22px;
     
 }
-.Navbar ul li:hover{
+.Navbar ul li:hover
+{
     color: beige;
     background-color: brown;
     
