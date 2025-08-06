@@ -10,7 +10,8 @@ body
     box-shadow: 2px 5px 10px;    
 
 }
-.Navbar ul li{
+.Navbar ul li
+{
     list-style: none;
     text-decoration: none;
     margin: 20px;
